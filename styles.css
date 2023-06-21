@@ -2,11 +2,17 @@
     margin: 0;
 }
 
+body {
+    background-image: linear-gradient(to right, rgb(218, 121, 57) , rgb(215, 218, 57), rgb(218, 121, 57));
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     /* transition: 0.3s; */
+    border-radius: 8px;
     border: 1px solid transparent;
     margin: 40px;
+    background-color: rgb(228, 228, 228);
 }
   
 .card:hover {
@@ -103,11 +109,11 @@ h5 {
 }
 
 footer {
-    margin: 40px 50px;
+    margin: 40px 40px;
     display: grid;
     justify-content: flex-end;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 

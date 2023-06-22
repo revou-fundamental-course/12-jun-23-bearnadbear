@@ -11,7 +11,7 @@ body {
     /* transition: 0.3s; */
     border-radius: 8px;
     border: 1px solid transparent;
-    margin: 40px;
+    margin: 40px 120px;
     background-color: rgb(228, 228, 228);
 }
   
@@ -109,11 +109,14 @@ h5 {
 }
 
 footer {
-    margin: 40px 40px;
-    display: grid;
-    justify-content: flex-end;
+    margin: 40px 120px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
-    /* text-decoration: underline; */
+}
+
+a {
+    text-decoration: none;
 }
 
